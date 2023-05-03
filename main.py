@@ -38,3 +38,8 @@ if(not(user.checkLogin())):
     print("cookie is invalid")
     exit(1)
 print("小图灵控制台版登陆成功，请输入功能编号")
+'''
+while(True):
+    num=int(input())
+    if(num)
+    '''
