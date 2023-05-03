@@ -33,10 +33,11 @@ import urllib3
 cookie=input("cookie:")
 print("Logging...")
 user=turingAPI.icodeUser(cookie)
-print("Login is successfully.")
 if(not(user.checkLogin())):
     print("cookie is invalid")
     exit(1)
+print('User info: id=', user.info['userId'] , ' | name=', user.info['name'])
+print("Login is successfully.")
 print("小图灵控制台版登陆成功，请输入功能编号")
 '''
 while(True):
